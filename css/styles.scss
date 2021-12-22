@@ -1,0 +1,75 @@
+$color1: #7b7b7f; /*gris oscuro*/
+$color2: #c6c6c6; /*gris medio*/
+$color3: #dddddd; /*gris medio2*/
+$color4: #f0f0f0; /*gris claro*/
+$color5: #808000; /*olive*/
+$color6: #AC9382; /*marrón*/
+$color7: #882525; /*rojo oscuro*/
+
+.color1 {
+    color: $color1;
+  }
+.color2 {
+    color: $color2;
+  }
+.color3 {
+    color: $color3;
+  }
+.color4 {
+    color: $color4;
+  }
+.color5 {
+    color: $color5;
+  }
+.color6 {
+    color: $color6;
+  }
+.color7 {
+    color: $color7;
+  }
+
+
+// $theme-colors: (
+//   "primary": $color5,
+// );
+
+html,
+body {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: $color6;
+  border-radius: 50px;
+}
+
+h3 {
+  font-family: 'Estonia', cursive;
+}
+
+.form-signin {
+  border-radius: 50;
+}
+
+.btn-primary {
+  background-color: $color5;
+  border-color: $color5;
+  &:hover, &:focus {
+    color: #fff;
+    background-color: darken($color5, 10%);
+    border-color: darken($color5, 10%);
+    box-shadow: none !important;
+   }
+}
+.btn-outline-danger {
+  color: $color7;
+  border-color: $color7;
+  &:hover, &:focus {
+    color: #fff;
+    background-color: darken($color7, 10%);
+    border-color: darken($color7, 10%);
+    box-shadow: none !important;
+   }
+}

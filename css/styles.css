@@ -1,0 +1,88 @@
+@charset "UTF-8";
+/*gris oscuro*/
+/*gris medio*/
+/*gris medio2*/
+/*gris claro*/
+/*olive*/
+/*marrón*/
+/*rojo oscuro*/
+.color1 {
+  color: #7b7b7f;
+}
+
+.color2 {
+  color: #c6c6c6;
+}
+
+.color3 {
+  color: #dddddd;
+}
+
+.color4 {
+  color: #f0f0f0;
+}
+
+.color5 {
+  color: #808000;
+}
+
+.color6 {
+  color: #AC9382;
+}
+
+.color7 {
+  color: #882525;
+}
+
+html,
+body {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #AC9382;
+  border-radius: 50px;
+}
+
+h3 {
+  font-family: 'Estonia', cursive;
+}
+
+.form-signin {
+  border-radius: 50;
+}
+
+.btn-primary {
+  background-color: #808000;
+  border-color: #808000;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+  color: #fff;
+  background-color: #4d4d00;
+  border-color: #4d4d00;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.btn-outline-danger {
+  color: #882525;
+  border-color: #882525;
+}
+
+.btn-outline-danger:hover, .btn-outline-danger:focus {
+  color: #fff;
+  background-color: #601a1a;
+  border-color: #601a1a;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+/*# sourceMappingURL=styles.css.map */
